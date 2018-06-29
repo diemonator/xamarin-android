@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- For Older Phones API LEVEL BELOW 21 older than Android 5-->
+<resources>
+  <style name="MyCustomTheme" parent="android:Theme.Material.Light">
+    <!-- Your customizations go here -->
+    <!-- Override the color of UI controls -->
+    <item name="android:colorPrimary">@color/my_blue</item>
+    <item name="android:colorAccent">@color/my_purple</item>
+  </style>
+</resources>

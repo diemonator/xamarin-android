@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Test TCP/IP Client</string>
+  <string name="sVer">Test TCP/IP client v1.0.0 04022016_1653</string>
+  <string name="sendDataLabel">Send data to server</string>
+  <string name="serverInfoLabel">Server IP / Port</string>
+  <string name="recivedFromServerLabel">Received from server</string>
+  <string name="send">Send</string>
+  <string name="clear">Clear</string>
+  <string name="connect">Connect</string>
+  <string name="rb_NoEOL">No EOL</string>
+  <string name="rb_CR_LF">CR/LF</string>
+  <string name="rb_CR">CR</string>
+  <string name="rb_LF">LF</string>
+  <string name="ip">IP</string>
+  <string name="port">Port</string>
+  <string name="logToWindow">Log to Window</string>
+  <string name="logToFile">Log to File</string>
+</resources>

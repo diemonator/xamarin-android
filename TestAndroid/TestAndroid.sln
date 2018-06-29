@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAndroid", "TestAndroid\TestAndroid.csproj", "{36D83E01-C501-4375-983F-877057FDD152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "isf_min", "..\test_tcp_win\isf_min\isf_min.csproj", "{E44D203B-796B-40DD-8623-CE296C4B12CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPort", "..\SerialPort\SerialPort\SerialPort.csproj", "{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D83E01-C501-4375-983F-877057FDD152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Debug|x86.Build.0 = Debug|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Release|x86.ActiveCfg = Release|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Release|x86.Build.0 = Release|Any CPU
+		{36D83E01-C501-4375-983F-877057FDD152}.Release|x86.Deploy.0 = Release|Any CPU
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Debug|x86.ActiveCfg = Debug|x86
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Debug|x86.Build.0 = Debug|x86
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Release|x86.ActiveCfg = Release|x86
+		{E44D203B-796B-40DD-8623-CE296C4B12CD}.Release|x86.Build.0 = Release|x86
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E2D98F8-3BA0-4855-B78A-491A6502E0A2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2069555-D503-40EB-9274-C8154A8FD5B0}
+	EndGlobalSection
+EndGlobal

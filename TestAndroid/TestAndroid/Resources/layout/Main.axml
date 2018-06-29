@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:minWidth="25dp"
+    android:minHeight="25dp">
+    <TextView
+        android:text="@string/sendDataLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSendServer" />
+    <RadioGroup
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:text="@string/rb_NoEOL"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rB_NoEOL" />
+        <RadioButton
+            android:text="@string/rb_CR_LF"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rB_CR_LF" />
+        <RadioButton
+            android:text="@string/rb_CR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rB_CR" />
+        <RadioButton
+            android:text="@string/rb_LF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rB_LF" />
+    </RadioGroup>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="@string/send"
+            android:id="@+id/btnSendToServer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="@string/clear"
+            android:id="@+id/btnClearFromServer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:text="@string/serverInfoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout1">
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/ip"
+            android:id="@+id/editTextIP" />
+        <EditText
+            android:inputType="number"
+            android:hint="@string/port"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPort" />
+    </LinearLayout>
+    <Button
+        android:text="@string/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConnect" />
+    <TextView
+        android:text="@string/recivedFromServerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <Button
+        android:text="@string/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClear" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewInfo"
+        android:scrollbars="vertical" />
+</LinearLayout>

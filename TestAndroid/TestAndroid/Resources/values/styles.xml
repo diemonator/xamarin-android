@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- Inherit from the light Material Theme -->
+  <style name="MyCustomTheme" parent="android:Theme.Holo.Light">
+    
+    <item name="android:colorPrimary">@color/my_blue</item>
+    <item name="android:colorAccent">@color/my_purple</item>
+
+<!--<item name="android:textColorPrimary"> </item>
+    <item name="android:statusBarColor"> </item>
+    <item name="android:colorPrimaryDark"> </item>
+    <item name="android:windowBackground"> </item>
+    <item name="navigationBarColor"> </item>-->
+  </style>
+</resources>
